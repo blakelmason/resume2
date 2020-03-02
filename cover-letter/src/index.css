@@ -1,0 +1,19 @@
+@page {
+  size: auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1 !important;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.page {
+  position: relative;
+  overflow: hidden;
+  page-break-after: always;
+  max-width: 8.5in;
+  max-height: 11in;
+}

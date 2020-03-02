@@ -1,0 +1,25 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pdf": "html-pdf index.html resume.pdf",
+    "lazy": "git add . && git commit -m \"lazy\" && git push origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakelmason/resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blakelmason/resume/issues"
+  },
+  "homepage": "https://github.com/blakelmason/resume#readme",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
